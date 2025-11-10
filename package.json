@@ -1,0 +1,13 @@
+{
+  "name": "movies-api-proxy",
+  "version": "1.0.0",
+  "description": "Serverless API proxy to bypass Cloudflare protection",
+  "main": "api/movies.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["api", "proxy", "cloudflare", "bypass"],
+  "author": "",
+  "license": "MIT"
+}
